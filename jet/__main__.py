@@ -3,12 +3,17 @@
 import argparse
 
 from .main import main
-from .readers import json_reader
+from .readers import json_reader, jsonl_reader
 from .writers import CsvWriter, JsonLineWriter
 
 OUTPUT_FORMATS = {
-    'jsonl': JsonLineWriter,
+    'jsonline': JsonLineWriter,
     'csv': CsvWriter,
+}
+
+INPUT_FORMATS = {
+    'json': json_reader,
+    'jsonline': jsonl_reader,
 }
 
 
@@ -17,14 +22,22 @@ def run_cli():
     parser.add_argument(
         '-s',
         '--select',
-        help='space separated JSONPath expressions, e.g., `user.name preferences.color`'
+        help='Space separated JSONPath expressions, e.g., `user.name preferences.color`'
     )
 
     parser.add_argument(
-        '-f',
+        '-o',
         '--output-format',
         choices=OUTPUT_FORMATS.keys(),
-        default='jsonl'
+        default='jsonline',
+        help='Output format, defaults to "jsonline"'
+    )
+    parser.add_argument(
+        '-i',
+        '--input-format',
+        choices=INPUT_FORMATS.keys(),
+        default='json',
+        help='Input format, defaults to "json"'
     )
     parser.add_argument(
         'files',
@@ -36,10 +49,9 @@ def run_cli():
 
     main(
         args.select,
-        json_reader(args.files),
+        INPUT_FORMATS[args.input_format](args.files),
         OUTPUT_FORMATS[args.output_format]() # TODO: output file name
     )
 
 if __name__ == '__main__':
-    print('wat?')
     run_cli()
