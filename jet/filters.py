@@ -24,7 +24,6 @@ class Filter:
         match = self.matcher.match(expression.strip())
         if not match:
             raise JetParseException(f'Error parsing {expression}')
-        print(repr(match.groups()))
 
         self.json_path = JsonPath(match.group(1))
         self.matcher = OPERATORS[match.group(2)]
