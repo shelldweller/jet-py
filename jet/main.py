@@ -11,3 +11,4 @@ def main(select_expressions: str, reader: Generator[dict, None, None], writer: B
     for item in filter(doc_filter, reader):
         data = selector(item)
         writer.write(data)
+    writer.close()
