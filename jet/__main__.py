@@ -26,6 +26,12 @@ def run_cli():
     )
 
     parser.add_argument(
+        '-f',
+        '--filter',
+        help='Filter expression, e.g., `user.name = "shelldweller"`'
+    )
+
+    parser.add_argument(
         '-o',
         '--output-format',
         choices=OUTPUT_FORMATS.keys(),
@@ -50,7 +56,8 @@ def run_cli():
     main(
         args.select,
         INPUT_FORMATS[args.input_format](args.files),
-        OUTPUT_FORMATS[args.output_format]() # TODO: output file name
+        OUTPUT_FORMATS[args.output_format](),
+        filter_expression = args.filter
     )
 
 if __name__ == '__main__':
