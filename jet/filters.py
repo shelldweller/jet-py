@@ -6,6 +6,7 @@ from .json_path import JsonPath
 
 
 OPERATORS = {
+    '==': lambda a,b: a == b,
     '=':  lambda a,b: a == b,
     '>=': lambda a,b: a >= b,
     '<=': lambda a,b: a <= b,
