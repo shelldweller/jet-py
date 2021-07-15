@@ -3,17 +3,17 @@
 import argparse
 
 from .main import main
-from .readers import json_reader, jsonl_reader
+from .readers import csv_reader, json_reader, jsonl_reader
 from .writers import CsvWriter, JsonLineWriter, JsonWriter
 
-
 OUTPUT_FORMATS = {
+    'csv': CsvWriter,
     'json': JsonWriter,
     'jsonline': JsonLineWriter,
-    'csv': CsvWriter,
 }
 
 INPUT_FORMATS = {
+    'csv': csv_reader,
     'json': json_reader,
     'jsonline': jsonl_reader,
 }
