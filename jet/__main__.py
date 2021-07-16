@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import argparse
+import sys
 
 from .main import main
 from .readers import csv_reader, json_reader, jsonl_reader
@@ -49,8 +50,9 @@ def run_cli():
     )
     parser.add_argument(
         'files',
-        nargs='+',
+        nargs='*',
         type=argparse.FileType('r'),
+        default=[sys.stdin],
         help='Files to read from'
     )
     args = parser.parse_args()
