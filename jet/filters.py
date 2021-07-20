@@ -13,6 +13,7 @@ OPERATORS = {
     '>':  lambda a,b: a > b,
     '<':  lambda a,b: a < b,
     '!=': lambda a,b: a != b,
+    'in': lambda a,b: a in b,
 }
 
 DEFAULT_FILTER = lambda _: True
@@ -36,4 +37,3 @@ class Filter:
 
     def __call__(self, record:dict) -> bool:
         return self.matcher(self.json_path.resolve(record), self.value)
-
