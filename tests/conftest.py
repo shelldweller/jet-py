@@ -11,7 +11,7 @@ def country_aruba():
         "region": {
             "id": "LCN",
             "iso2code": "ZJ",
-            "value": "Latin America & Caribbean "
+            "value": "Latin America & Caribbean"
         },
         "adminregion": {
             "id": "",

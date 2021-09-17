@@ -1,17 +1,20 @@
 #!/usr/bin/env python
 
 import argparse
+import sys
 
 from .main import main
-from .readers import json_reader, jsonl_reader
-from .writers import CsvWriter, JsonLineWriter
+from .readers import csv_reader, json_reader, jsonl_reader
+from .writers import CsvWriter, JsonLineWriter, JsonWriter
 
 OUTPUT_FORMATS = {
-    'jsonline': JsonLineWriter,
     'csv': CsvWriter,
+    'json': JsonWriter,
+    'jsonline': JsonLineWriter,
 }
 
 INPUT_FORMATS = {
+    'csv': csv_reader,
     'json': json_reader,
     'jsonline': jsonl_reader,
 }
@@ -23,6 +26,12 @@ def run_cli():
         '-s',
         '--select',
         help='Space separated JSONPath expressions, e.g., `user.name preferences.color`'
+    )
+
+    parser.add_argument(
+        '-f',
+        '--filter',
+        help='Filter expression, e.g., `user.name = "shelldweller"`'
     )
 
     parser.add_argument(
@@ -41,8 +50,9 @@ def run_cli():
     )
     parser.add_argument(
         'files',
-        nargs='+',
+        nargs='*',
         type=argparse.FileType('r'),
+        default=[sys.stdin],
         help='Files to read from'
     )
     args = parser.parse_args()
@@ -50,7 +60,8 @@ def run_cli():
     main(
         args.select,
         INPUT_FORMATS[args.input_format](args.files),
-        OUTPUT_FORMATS[args.output_format]() # TODO: output file name
+        OUTPUT_FORMATS[args.output_format](),
+        filter_expression = args.filter
     )
 
 if __name__ == '__main__':
