@@ -1,3 +1,5 @@
+from typing import Generator
+
 class JsonPathError(ValueError):
     pass
 
@@ -25,8 +27,11 @@ def _parse(expression: str) -> list:
                 raise JsonPathError(f'Unexpected "]" in position {position}')
             if not buffer:
                 raise JsonPathError(f'Invalid JSON Path expression in position {position - 1}')
-            fields.append(int(buffer))
-            buffer = ''
+            if buffer == '*':
+                flush = True
+            else:
+                fields.append(int(buffer))
+                buffer = ''
             in_bracket = False
 
         else:
@@ -53,13 +58,22 @@ class JsonPath:
         self.path = path
         self._fields = _parse(path)
 
-    def resolve(self, record:dict, default=None):
+    def _resolve(self, record:dict, fields:list, default=None) -> Generator:
         result = record
-        for field in self._fields:
+        for i, field in enumerate(fields):
             if isinstance(result, dict) and field in result:
                 result = result[field]
-            elif isinstance(result, list) and field < len(result):
+            elif isinstance(result, list) and isinstance(field, int) and field < len(result):
                 result = result[field]
+            elif isinstance(result, list) and field == '*':
+                for x in result:
+                    yield from self._resolve(x, fields[i+1:], default)
+                return
             else:
-                return default
-        return result
+                yield default
+                return
+        yield result
+
+    # TODO: remove the `default` param; with generator [] would be more suitable
+    def resolve(self, record:dict, default=None):
+        return self._resolve(record, self._fields, default)
