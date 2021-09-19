@@ -38,6 +38,9 @@ def _parse(expression: str) -> list:
 
         position += 1
 
+    if in_bracket:
+        raise JsonPathError('"[" was not closed')
+
     if buffer:
         fields.append(buffer)
 
