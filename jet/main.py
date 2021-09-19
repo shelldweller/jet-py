@@ -9,6 +9,6 @@ def main(select_expressions: str, reader: Generator[dict, None, None], writer: B
     selector = JsonPathSelector(select_expressions) if select_expressions else DEFAULT_SELECTOR
     doc_filter = Filter(filter_expression) if filter_expression else DEFAULT_FILTER
     for item in filter(doc_filter, reader):
-        data = selector(item)
-        writer.write(data)
+        for data in selector(item):
+            writer.write(data)
     writer.close()

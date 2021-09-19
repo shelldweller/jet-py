@@ -3,6 +3,16 @@ import os
 
 import pytest
 
+class TestWriter():
+    def __init__(self):
+        self.buffer = []
+
+    def write(self, record: dict):
+        self.buffer.append(record)
+
+    def close(self):
+        pass
+
 
 def _load_json_fixture(relative_path):
     path = os.path.join(
@@ -21,32 +31,14 @@ def oliver_sacks_books():
 
 @pytest.fixture
 def country_aruba():
-    # http://api.worldbank.org/v2/country?format=json&per_page=300
-    return {
-        "id": "ABW",
-        "iso2Code": "AW",
-        "name": "Aruba",
-        "region": {
-            "id": "LCN",
-            "iso2code": "ZJ",
-            "value": "Latin America & Caribbean"
-        },
-        "adminregion": {
-            "id": "",
-            "iso2code": "",
-            "value": ""
-        },
-        "incomeLevel": {
-            "id": "HIC",
-            "iso2code": "XD",
-            "value": "High income"
-        },
-        "lendingType": {
-            "id": "LNX",
-            "iso2code": "XX",
-            "value": "Not classified"
-        },
-        "capitalCity": "Oranjestad",
-        "longitude": "-70.0167",
-        "latitude": "12.5167"
-    }
+    return _load_json_fixture('aruba.json')
+
+
+@pytest.fixture
+def country_aruba_reader():
+    yield _load_json_fixture('aruba.json')
+
+
+@pytest.fixture
+def test_writer():
+    return TestWriter()
