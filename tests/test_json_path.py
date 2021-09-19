@@ -15,3 +15,7 @@ def test_invalid_path(country_aruba):
 
 def test_invalid_path_with_default(country_aruba):
     assert JsonPath('none.such').resolve(country_aruba, 'Nonesuch') == 'Nonesuch'
+
+
+def test_array_index(oliver_sacks_books):
+    assert JsonPath('items[0].volumeInfo.title').resolve(oliver_sacks_books) == oliver_sacks_books['items'][0]['volumeInfo']['title']
