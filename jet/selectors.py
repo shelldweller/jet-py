@@ -1,3 +1,5 @@
+from typing import Any, Generator, Tuple
+
 from .json_path import JsonPath
 
 
@@ -8,5 +10,6 @@ class JsonPathSelector():
     def __init__(self, select_expressions: str):
         self.selectors = [JsonPath(x) for x in select_expressions.strip().split()]
 
-    def __call__(self, doc: dict) -> dict():
-        return { x.path:x.resolve(doc) for x in self.selectors }
+    def __call__(self, doc: dict) -> Generator[Tuple[str,Any], None, None]:
+        for selector in self.selectors:
+            yield [ (selector.path, result) for result in selector.resolve(doc) ]
