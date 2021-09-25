@@ -36,5 +36,5 @@ class Filter:
             raise JetParseException(f'Invalid expression {match.groups(3)}') from e
 
     def __call__(self, record:dict) -> bool:
-        result = next(self.json_path.resolve(record))
+        result = self.json_path.resolve(record)
         return self.matcher(result, self.value)

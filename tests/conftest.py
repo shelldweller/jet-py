@@ -24,6 +24,12 @@ def _load_json_fixture(relative_path):
         return json.load(f)
 
 
+def _yield_json_fixture(relative_path):
+    def _generator():
+        yield _load_json_fixture(relative_path)
+    return _generator
+
+
 @pytest.fixture
 def oliver_sacks_books():
     return _load_json_fixture('oliver-sacks-books.json')
@@ -36,7 +42,7 @@ def country_aruba():
 
 @pytest.fixture
 def country_aruba_reader():
-    yield _load_json_fixture('aruba.json')
+    return _yield_json_fixture('aruba.json')
 
 
 @pytest.fixture

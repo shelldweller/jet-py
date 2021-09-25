@@ -1,4 +1,4 @@
-from typing import Generator
+from typing import Any
 
 class JsonPathError(ValueError):
     pass
@@ -58,7 +58,7 @@ class JsonPath:
         self.path = path
         self._fields = _parse(path)
 
-    def _resolve(self, record:dict, fields:list, default=None) -> Generator:
+    def _resolve(self, record:dict, fields:list, default=None) -> Any:
         result = record
         for i, field in enumerate(fields):
             if isinstance(result, dict) and field in result:
@@ -66,14 +66,12 @@ class JsonPath:
             elif isinstance(result, list) and isinstance(field, int) and field < len(result):
                 result = result[field]
             elif isinstance(result, list) and field == '*':
-                for x in result:
-                    yield from self._resolve(x, fields[i+1:], default)
-                return
+                next_field = i + 1
+                if next_field < len(fields):
+                    return [self._resolve(x, fields[next_field:], default) for x in result]
             else:
-                yield default
-                return
-        yield result
+                return default
+        return result
 
-    # TODO: remove the `default` param; with generator [] would be more suitable
-    def resolve(self, record:dict, default=None):
+    def resolve(self, record:dict, default=None) -> Any:
         return self._resolve(record, self._fields, default)
