@@ -1,0 +1,926 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 1318,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "Zma5jgHKVkYC",
+      "etag": "67Eau00Do8A",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Zma5jgHKVkYC",
+      "volumeInfo": {
+        "title": "Hallucinations",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "Vintage",
+        "publishedDate": "2012-11-06",
+        "description": "“Illuminate[s] the complexities of the human brain and the mysteries of the human mind.” —The New York Times To many people, hallucinations imply madness, but in fact they are a common part of the human experience. These sensory distortions range from the shimmering zigzags of a visual migraine to powerful visions brought on by fever, injuries, drugs, sensory deprivation, exhaustion, or even grief. Hallucinations doubtless lie behind many mythological traditions, literary inventions, and religious epiphanies. Drawing on his own experiences, a wealth of clinical cases from among his patients, and famous historical examples ranging from Dostoevsky to Lewis Carroll, the legendary neurologist Oliver Sacks investigates the mystery of these sensory deceptions: what they say about the working of our brains, how they have influenced our folklore and culture, and why the potential for hallucination is present in us all.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780307957252"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "030795725X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 336,
+        "printType": "BOOK",
+        "categories": [
+          "Science"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 41,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.14.12.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Zma5jgHKVkYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Zma5jgHKVkYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=Zma5jgHKVkYC&printsec=frontcover&dq=oliver+sacks&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=Zma5jgHKVkYC&dq=oliver+sacks&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Hallucinations.html?hl=&id=Zma5jgHKVkYC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/Hallucinations-sample-epub.acsm?id=Zma5jgHKVkYC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Zma5jgHKVkYC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Hallucinations doubtless lie behind many mythological traditions, literary inventions, and religious epiphanies."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "u75mDwAAQBAJ",
+      "etag": "5R1jogZu0Oo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/u75mDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Everything in Its Place",
+        "subtitle": "First Loves and Last Tales",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "Knopf Canada",
+        "publishedDate": "2019-04-23",
+        "description": "From the bestselling author of Gratitude and On the Move, a final volume of essays that showcases Sacks's broad range of interests--from his passions for ferns, swimming, and horsetails, to his final case histories exploring schizophrenia, dementia, and Alzheimer's. Oliver Sacks, renowned scientist and storyteller, is adored by readers for his neurological case histories, his fascination and familiarity with human behaviour at its most unexpected and unfamiliar. Everything in Its Place is a celebration of Sacks's myriad interests, all told with his characteristic compassion, erudition, and luminous prose. From the celebrated case history of Spalding Gray that appeared in The New Yorker four months before his death to reflections on mental asylums; from piercing accounts of Schizophrenia to a reminiscence of Robin Williams; from the riveting tale of a medical colleague falling victim to Alzheimer's to the cinematography of Michael Powell, this volume celebrates and reflects the wondrous curiosity of Oliver Sacks.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780345811400"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0345811402"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 288,
+        "printType": "BOOK",
+        "categories": [
+          "Science"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.2.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=u75mDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=u75mDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=u75mDwAAQBAJ&pg=PP1&dq=oliver+sacks&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=u75mDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=u75mDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 13.99,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 13.99,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=u75mDwAAQBAJ&rdid=book-u75mDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 13990000,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 13990000,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/Everything_in_Its_Place-sample-epub.acsm?id=u75mDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=u75mDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "From the celebrated case history of Spalding Gray that appeared in The New Yorker four months before his death to reflections on mental asylums; from piercing accounts of Schizophrenia to a reminiscence of Robin Williams; from the riveting ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "v3EyEAAAQBAJ",
+      "etag": "aRXlR+BR/rg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/v3EyEAAAQBAJ",
+      "volumeInfo": {
+        "title": "The Man Who Mistook His Wife for a Hat",
+        "subtitle": "And Other Clinical Tales",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "Knopf Canada",
+        "publishedDate": "2021-09-14",
+        "description": "In his most beloved and extraordinary book, Dr. Sacks recounts the case histories of patients inhabiting the compelling world of neurological disorders. Featuring a preface never before included. Oliver Sacks's The Man Who Mistook His Wife for a Hat tells the stories of individuals afflicted with perceptual and intellectual disorders: patients who have lost their memories and with them the greater part of their pasts; who are no longer able to recognize people and common objects; whose limbs seem alien to them; who lack some skills yet are gifted with uncanny artistic or mathematical talents. In Dr. Sacks's splendid and sympathetic telling, his patients are deeply human, and his tales are studies of struggles against incredible adversity. A great healer, Sacks never loses sight of medicine's ultimate responsibility: \"the suffering, afflicted, fighting human subject.\"",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781039002494"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1039002498"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 336,
+        "printType": "BOOK",
+        "categories": [
+          "Biography & Autobiography"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 3408,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.2.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=v3EyEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=v3EyEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=v3EyEAAAQBAJ&pg=PP1&dq=oliver+sacks&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=v3EyEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=v3EyEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 13.99,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 13.99,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=v3EyEAAAQBAJ&rdid=book-v3EyEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 13990000,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 13990000,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/The_Man_Who_Mistook_His_Wife_for_a_Hat-sample-epub.acsm?id=v3EyEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=v3EyEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Oliver Sacks&#39;s The Man Who Mistook His Wife for a Hat tells the stories of individuals afflicted with perceptual and intellectual disorders: patients who have lost their memories and with them the greater part of their pasts; who are no ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "PkuwBgAAQBAJ",
+      "etag": "U62gp0yHF/E",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/PkuwBgAAQBAJ",
+      "volumeInfo": {
+        "title": "On the Move",
+        "subtitle": "A Life",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "Knopf Canada",
+        "publishedDate": "2015-04-28",
+        "description": "An impassioned, tender, and joyous memoir by the author of Musicophilia and The Man Who Mistook His Wife for a Hat. When Oliver Sacks was twelve years old, a perceptive schoolmaster wrote in his report: “Sacks will go far, if he does not go too far.” It is now abundantly clear that Sacks has never stopped going. From its opening pages on his youthful obsession with motorcycles and speed, On the Move is infused with his restless energy. As he recounts his experiences as a young neurologist in the early 1960s, first in California, where he struggled with drug addiction and then in New York, where he discovered a long-forgotten illness in the back wards of a chronic hospital, we see how his engagement with patients comes to define his life. With unbridled honesty and humor, Sacks shows us that the same energy that drives his physical passions--weight lifting and swimming--also drives his cerebral passions. He writes about his love affairs, both romantic and intellectual; his guilt over leaving his family to come to America; his bond with his schizophrenic brother; and the writers and scientists--Thom Gunn, A. R. Luria, W. H. Auden, Gerald M. Edelman, Francis Crick--who influenced him. On the Move is the story of a brilliantly unconventional physician and writer--and of the man who has illuminated the many ways that the brain makes us human.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780345808981"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0345808983"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 325,
+        "printType": "BOOK",
+        "categories": [
+          "Biography & Autobiography"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.2.3.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=PkuwBgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=PkuwBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=PkuwBgAAQBAJ&pg=PP1&dq=oliver+sacks&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=PkuwBgAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=PkuwBgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 14.99,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 14.99,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=PkuwBgAAQBAJ&rdid=book-PkuwBgAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 14990000,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 14990000,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/On_the_Move-sample-epub.acsm?id=PkuwBgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=PkuwBgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "On the Move is the story of a brilliantly unconventional physician and writer--and of the man who has illuminated the many ways that the brain makes us human."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Ct2UMH0VqikC",
+      "etag": "5qctA2JYeuQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Ct2UMH0VqikC",
+      "volumeInfo": {
+        "title": "The Mind's Eye",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "Vintage",
+        "publishedDate": "2010-10-26",
+        "description": "In The Mind’s Eye, Oliver Sacks tells the stories of people who are able to navigate the world and communicate with others despite losing what many of us consider indispensable senses and abilities: the power of speech, the capacity to recognize faces, the sense of three-dimensional space, the ability to read, the sense of sight. For all of these people, the challenge is to adapt to a radically new way of being in the world. There is Lilian, a concert pianist who becomes unable to read music and is eventually unable even to recognize everyday objects, and Sue, a neurobiologist who has never seen in three dimensions, until she suddenly acquires stereoscopic vision in her fifties. There is Pat, who reinvents herself as a loving grandmother and active member of her community, despite the fact that she has aphasia and cannot utter a sentence, and Howard, a prolific novelist who must find a way to continue his life as a writer even after a stroke destroys his ability to read. And there is Dr. Sacks himself, who tells the story of his own eye cancer and the bizarre and disconcerting effects of losing vision to one side. Sacks explores some very strange paradoxes—people who can see perfectly well but cannot recognize their own children, and blind people who become hyper-visual or who navigate by “tongue vision.” He also considers more fundamental questions: How do we see? How do we think? How important is internal imagery—or vision, for that matter? Why is it that, although writing is only five thousand years old, humans have a universal, seemingly innate, potential for reading? The Mind’s Eye is a testament to the complexity of vision and the brain and to the power of creativity and adaptation. And it provides a whole new perspective on the power of language and communication, as we try to imagine what it is to see with another person’s eyes, or another person’s mind.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780307594556"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0307594556"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 256,
+        "printType": "BOOK",
+        "categories": [
+          "Psychology"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 28,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.5.5.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Ct2UMH0VqikC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Ct2UMH0VqikC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=Ct2UMH0VqikC&pg=PP1&dq=oliver+sacks&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=Ct2UMH0VqikC&dq=oliver+sacks&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Mind_s_Eye.html?hl=&id=Ct2UMH0VqikC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/The_Mind_s_Eye-sample-epub.acsm?id=Ct2UMH0VqikC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/The_Mind_s_Eye-sample-pdf.acsm?id=Ct2UMH0VqikC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Ct2UMH0VqikC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "In The Mind’s Eye, Oliver Sacks tells the stories of people who are able to navigate the world and communicate with others despite losing what many of us consider indispensable senses and abilities: the power of speech, the capacity to ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "e7VuDwAAQBAJ",
+      "etag": "bjCwMSD92xM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/e7VuDwAAQBAJ",
+      "volumeInfo": {
+        "title": "And How Are You, Dr. Sacks?",
+        "subtitle": "A Biographical Memoir of Oliver Sacks",
+        "authors": [
+          "Lawrence Weschler"
+        ],
+        "publisher": "Farrar, Straus and Giroux",
+        "publishedDate": "2019-08-13",
+        "description": "The untold story of Dr. Oliver Sacks, his own most singular patient \"[An] engrossing biographical memoir. This is Sacks at full blast: on endless ward rounds, observing his post-encephalitic patients . . . exulting over horseshoe crabs and chunks of Iceland spar.\" —Barbara Kiser, Nature The author Lawrence Weschler began spending time with Oliver Sacks in the early 1980s, when he set out to profile the neurologist for his own new employer, The New Yorker. Almost a decade earlier, Dr. Sacks had published his masterpiece Awakenings—the account of his long-dormant patients’ miraculous but troubling return to life in a Bronx hospital ward. But the book had hardly been an immediate success, and the rumpled clinician was still largely unknown. Over the ensuing four years, the two men worked closely together until, for wracking personal reasons, Sacks asked Weschler to abandon the profile, a request to which Weschler acceded. The two remained close friends, however, across the next thirty years and then, just as Sacks was dying, he urged Weschler to take up the project once again. This book is the result of that entreaty. Weschler sets Sacks’s brilliant table talk and extravagant personality in vivid relief, casting himself as a beanpole Sancho to Sacks’s capacious Quixote. We see Sacks rowing and ranting and caring deeply; composing the essays that would form The Man Who Mistook His Wife for a Hat; recalling his turbulent drug-fueled younger days; helping his patients and exhausting his friends; and waging intellectual war against a medical and scientific establishment that failed to address his greatest concern: the spontaneous specificity of the individual human soul. And all the while he is pouring out a stream of glorious, ribald, hilarious, and often profound conversation that establishes him as one of the great talkers of the age. Here is the definitive portrait of Sacks as our preeminent romantic scientist, a self-described “clinical ontologist” whose entire practice revolved around the single fundamental question he effectively asked each of his patients: How are you? Which is to say, How do you be? A question which Weschler, with this book, turns back on the good doctor himself.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780374714949"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0374714940"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 400,
+        "printType": "BOOK",
+        "categories": [
+          "Biography & Autobiography"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.6.6.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=e7VuDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=e7VuDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=e7VuDwAAQBAJ&pg=PP1&dq=oliver+sacks&hl=&cd=6&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=e7VuDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=e7VuDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 12.99,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 12.99,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=e7VuDwAAQBAJ&rdid=book-e7VuDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 12990000,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 12990000,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/And_How_Are_You_Dr_Sacks-sample-epub.acsm?id=e7VuDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=e7VuDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This is Sacks at full blast: on endless ward rounds, observing his post-encephalitic patients . . . exulting over horseshoe crabs and chunks of Iceland spar.&quot; —Barbara Kiser, Nature The author Lawrence Weschler began spending time with ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "-X6BnVwnD7cC",
+      "etag": "rpEgWOOX1t8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/-X6BnVwnD7cC",
+      "volumeInfo": {
+        "title": "Seeing Voices",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "Vintage Canada",
+        "publishedDate": "2011-03-04",
+        "description": "Like The Man Who Mistook His Wife for a Hat, this is a fascinating voyage into a strange and wonderful land, a provocative meditation on communication, biology, adaptation, and culture. In Seeing Voices, Oliver Sacks turns his attention to the subject of deafness, and the result is a deeply felt portrait of a minority struggling for recognition and respect — a minority with its own rich, sometimes astonishing, culture and unique visual language, an extraordinary mode of communication that tells us much about the basis of language in hearing people as well. Seeing Voices is, as Studs Terkel has written, \"an exquisite, as well as revelatory, work.\"",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780307365750"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0307365751"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 240,
+        "printType": "BOOK",
+        "categories": [
+          "Psychology"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 12,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.3.3.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=-X6BnVwnD7cC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=-X6BnVwnD7cC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=-X6BnVwnD7cC&pg=PP1&dq=oliver+sacks&hl=&cd=7&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=-X6BnVwnD7cC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=-X6BnVwnD7cC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 12.99,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 12.99,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=-X6BnVwnD7cC&rdid=book--X6BnVwnD7cC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 12990000,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 12990000,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/Seeing_Voices-sample-epub.acsm?id=-X6BnVwnD7cC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=-X6BnVwnD7cC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Like The Man Who Mistook His Wife for a Hat, this is a fascinating voyage into a strange and wonderful land, a provocative meditation on communication, biology, adaptation, and culture."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "kSu_XBzhIIAC",
+      "etag": "nOejJAR4lU4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/kSu_XBzhIIAC",
+      "volumeInfo": {
+        "title": "Awakenings",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "Vintage Canada",
+        "publishedDate": "2011-03-04",
+        "description": "Awakenings — which inspired the major motion picture — is the remarkable story of a group of patients who contracted sleeping-sickness during the great epidemic just after World War I. Frozen for decades in a trance-like state, these men and women were given up as hopeless until 1969, when Dr. Oliver Sacks gave them the then-new drug L-DOPA, which had an astonishing, explosive, \"awakening\" effect. Dr. Sacks recounts the moving case histories of his patients, their lives, and the extraordinary transformations which went with their reintroduction to a changed world.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780307371058"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0307371050"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 464,
+        "printType": "BOOK",
+        "categories": [
+          "Psychology"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 9,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.1.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=kSu_XBzhIIAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=kSu_XBzhIIAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=kSu_XBzhIIAC&printsec=frontcover&dq=oliver+sacks&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=kSu_XBzhIIAC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=kSu_XBzhIIAC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 12.99,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 12.99,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=kSu_XBzhIIAC&rdid=book-kSu_XBzhIIAC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 12990000,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 12990000,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/Awakenings-sample-epub.acsm?id=kSu_XBzhIIAC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=kSu_XBzhIIAC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Awakenings — which inspired the major motion picture — is the remarkable story of a group of patients who contracted sleeping-sickness during the great epidemic just after World War I. Frozen for decades in a trance-like state, these ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "wXEyEAAAQBAJ",
+      "etag": "H9MxqS4Qf+c",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/wXEyEAAAQBAJ",
+      "volumeInfo": {
+        "title": "A Leg to Stand On",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "Knopf Canada",
+        "publishedDate": "2021-09-21",
+        "description": "Here the doctor becomes the patient, as Dr. Sacks chronicles the mountaineering accident which left him with the uncanny feeling of being \"legless,\" and raises profound questions of the physical basis of identity. In A Leg To Stand On, it is Dr. Sacks himself who is the patient: an encounter with a bull on a desolate mountain in Norway has left him with a severely damaged leg. But what should be a routine recuperation is actually the beginning of a strange medical journey, when he finds that his leg uncannily no longer feels a part of his body. Sacks's description of his crisis and eventual recovery is not only an illuminating examination of the experience of patienthood and the inner nature of illness and health, but also a fascinating exploration of the physical basis of identity.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781039002517"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "103900251X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 240,
+        "printType": "BOOK",
+        "categories": [
+          "Biography & Autobiography"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 4,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=wXEyEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=wXEyEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=wXEyEAAAQBAJ&pg=PP1&dq=oliver+sacks&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=wXEyEAAAQBAJ&dq=oliver+sacks&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/A_Leg_to_Stand_On.html?hl=&id=wXEyEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=wXEyEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "LwAEDgAAQBAJ",
+      "etag": "SZULVc5XC2M",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/LwAEDgAAQBAJ",
+      "volumeInfo": {
+        "title": "The River of Consciousness",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "Knopf Canada",
+        "publishedDate": "2017-10-24",
+        "description": "A profoundly fascinating, illuminating major work from the beloved, bestselling thinker and neurologist Oliver Sacks--completed by him just before his death--provides readers with a compelling, rare gift from the master. The River of Consciousness reflects Oliver Sacks at his wisest and most humane, as he examines some of the human animal's most remarkable faculties: memory, creativity, consciousness, and our present, ongoing evolution. Before his death, Sacks personally collected into this one volume his recent essays and case studies, never before published in book form, which he felt best displayed his passionate engagement with his most compelling and seminal ideas. The book, lucid and accessible as ever, is a mirror of his own consciousness, discovering in his personal and humane interactions with others, unique insight, and fresh meaning. Featuring a preface written two weeks before his death, The River of Consciousness reveals the beloved, bestselling author's unique ability to make unexpected connections, his sheer joy in knowledge, and his unceasing, timeless project to understand what it is that makes us human.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780345809018"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0345809017"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 320,
+        "printType": "BOOK",
+        "categories": [
+          "Science"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 3,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.2.3.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=LwAEDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=LwAEDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=LwAEDgAAQBAJ&printsec=frontcover&dq=oliver+sacks&hl=&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=LwAEDgAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=LwAEDgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 13.99,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 13.99,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=LwAEDgAAQBAJ&rdid=book-LwAEDgAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 13990000,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 13990000,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/The_River_of_Consciousness-sample-epub.acsm?id=LwAEDgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=LwAEDgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Before his death, Sacks personally collected into this one volume his recent essays and case studies, never before published in book form, which he felt best displayed his passionate engagement with his most compelling and seminal ideas."
+      }
+    }
+  ]
+}
