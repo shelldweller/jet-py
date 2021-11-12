@@ -1,5 +1,8 @@
 from typing import Any
 
+from .mixins import Resolvable
+
+
 class JsonPathError(ValueError):
     pass
 
@@ -52,8 +55,7 @@ def _parse(expression: str) -> list:
     return fields
 
 
-
-class JsonPath:
+class JsonPath(Resolvable):
     def __init__(self, path: str):
         self.path = path
         self._fields = _parse(path)
@@ -73,5 +75,5 @@ class JsonPath:
                 return default
         return result
 
-    def resolve(self, record:dict, default=None) -> Any:
-        return self._resolve(record, self._fields, default)
+    def resolve(self, record:dict) -> Any:
+        return self._resolve(record, self._fields)

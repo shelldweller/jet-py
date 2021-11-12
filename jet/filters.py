@@ -3,7 +3,7 @@ import re
 
 from .exceptions import JetParseException
 from .json_path import JsonPath
-from .resolvable import Resolvable
+from .mixins import Resolvable
 from typing import Any
 
 
