@@ -8,8 +8,13 @@ from jet.filters import Filter
         # =
         ('name = "Aruba"', True),
         ('name = "Nonesuch"', False),
+        ('"Aruba" = name', True),
+        ('"Nonesuch" = name', False),
+
         ('incomeLevel = { "id": "HIC", "iso2code": "XD", "value": "High income"}', True),
         ('incomeLevel = {}', False),
+        # == ("==" is an alias for "=")
+        ('name == "Aruba"', True),
         # !=
         ('name != "Nonesuch"', True),
         ('name != "Aruba"', False),
@@ -32,4 +37,3 @@ from jet.filters import Filter
 def test_simple_filter(expression, expected, country_aruba):
     doc_filter = Filter(expression)
     assert doc_filter(country_aruba) == expected
-
